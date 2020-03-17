@@ -12,3 +12,5 @@ The app consists of the following:
 
 This app leverages the API freely available by OpenWeatherMap. </br>
 The API details can be found at : https://openweathermap.org/api
+
+P.S. Podfiles added for easy cloning and running.
