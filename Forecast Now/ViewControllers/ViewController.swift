@@ -50,7 +50,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     func weatherAPICall(){
         MBProgressHUD.showAdded(to: self.view, animated: true)
-        weatherForecastArray.removeAll()
         let cityName = cityTextField.text!.replacingOccurrences(of: " ", with: "%20")
         
         
@@ -61,6 +60,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         connect.connectToServerWithurlGetMethod(url, method: "GET")
            
         }
+    //converting Unix time format to desired Date and Time format
     func getDate(epoch : Double) -> String{
             let date = Date(timeIntervalSince1970: epoch)
             let dateFormatter = DateFormatter()
@@ -111,6 +111,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 extension ViewController : ConnectionProtocol{
     func connectionSuccessWithData(_ responseData: Data) {
         MBProgressHUD.hide(for: self.view, animated: true)
+        weatherForecastArray.removeAll()
         var tempDict : Dictionary<String,AnyObject> = Dictionary<String,AnyObject>()
         
         do{
@@ -131,12 +132,12 @@ extension ViewController : ConnectionProtocol{
                 return
             }
             let newDay = getDate(epoch: tempDay)
+            //filtering out the 3-hour forecast frequency to just one forecast per day
             if uniqueDays.contains(newDay){
                 continue
             }
             else{
                 uniqueDays.insert(newDay)
-            
                 guard let tempData = eachDay["main"] as? NSDictionary else {
                     return
                 }

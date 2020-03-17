@@ -94,7 +94,4 @@ extension Connection:URLSessionDelegate,URLSessionDataDelegate, URLSessionTaskDe
         
         completionHandler(Foundation.URLSession.ResponseDisposition.allow)
     }
-    
-    
-    
 }
