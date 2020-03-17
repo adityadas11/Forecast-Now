@@ -14,8 +14,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBOutlet weak var cityTextField: UITextField!
     @IBOutlet weak var searchButton: UIButton!
     @IBOutlet weak var weatherTableView: UITableView!
-    var dummyData = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]
-    var weatherImage = [""]
     var weatherForecastArray = [WeatherModel]()
     
     override func viewDidLoad() {

@@ -33,6 +33,7 @@
 		408AFDC2241F121B000AA8AB /* SunnyRain.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDBB241F121B000AA8AB /* SunnyRain.png */; };
 		408AFDC5241F1248000AA8AB /* Cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDC4241F1248000AA8AB /* Cloudy.png */; };
 		408AFDCA241F677B000AA8AB /* Snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDC9241F677B000AA8AB /* Snow.png */; };
+		40D7A60F2420CCB400101701 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7A60E2420CCB400101701 /* WeatherTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		408AFDBB241F121B000AA8AB /* SunnyRain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunnyRain.png; sourceTree = "<group>"; };
 		408AFDC4241F1248000AA8AB /* Cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloudy.png; sourceTree = "<group>"; };
 		408AFDC9241F677B000AA8AB /* Snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snow.png; sourceTree = "<group>"; };
+		40D7A60E2420CCB400101701 /* WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTests.swift; sourceTree = "<group>"; };
 		4DB6F27B6F69A8C6996512E3 /* Pods_Forecast_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forecast_Now.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A5BD07ED2008727D7302D8 /* Pods_Forecast_NowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forecast_NowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E60E0585015AEEEC9A2B212 /* Pods-Forecast Now.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forecast Now.release.xcconfig"; path = "Target Support Files/Pods-Forecast Now/Pods-Forecast Now.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				407BA3AD241D92F10080D546 /* Forecast_NowTests.swift */,
 				407BA3AF241D92F10080D546 /* Info.plist */,
+				40D7A60E2420CCB400101701 /* WeatherTests.swift */,
 			);
 			path = "Forecast NowTests";
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				407BA3BD241D9FD50080D546 /* Weather Model.swift in Sources */,
 				407BA3AE241D92F10080D546 /* Forecast_NowTests.swift in Sources */,
 				407BA3C0241DC3660080D546 /* Connection.swift in Sources */,
+				40D7A60F2420CCB400101701 /* WeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
