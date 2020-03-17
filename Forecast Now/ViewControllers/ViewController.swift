@@ -86,7 +86,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         var imagePath = ""
         switch desc {
         case "clear sky":
-            imagePath = "Suny.png"
+            imagePath = "Sunny.png"
         case "few clouds","broken clouds":
             imagePath = "PartlyCloudy.png"
         case "scattered clouds", "overcast clouds","mist":
@@ -99,7 +99,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             imagePath = "Snow.png"
        
         default:
-            imagePath = "Suny.png"
+            imagePath = "Sunny.png"
         }
         cell.weatherImageView?.image = UIImage(named: imagePath)
         return cell

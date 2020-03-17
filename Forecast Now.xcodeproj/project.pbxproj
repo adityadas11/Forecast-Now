@@ -26,14 +26,14 @@
 		407BA3C3241E134B0080D546 /* Launch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 407BA3C1241E134B0080D546 /* Launch.jpeg */; };
 		408AFDBC241F121B000AA8AB /* LightningCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDB5241F121A000AA8AB /* LightningCloud.png */; };
 		408AFDBD241F121B000AA8AB /* RainyCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDB6241F121A000AA8AB /* RainyCloud.png */; };
-		408AFDBE241F121B000AA8AB /* pexels-photo-365268.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDB7241F121A000AA8AB /* pexels-photo-365268.jpeg */; };
 		408AFDBF241F121B000AA8AB /* HeavyRain.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDB8241F121A000AA8AB /* HeavyRain.png */; };
-		408AFDC0241F121B000AA8AB /* Suny.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDB9241F121A000AA8AB /* Suny.png */; };
+		408AFDC0241F121B000AA8AB /* Sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDB9241F121A000AA8AB /* Sunny.png */; };
 		408AFDC1241F121B000AA8AB /* PartlyCloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDBA241F121B000AA8AB /* PartlyCloudy.png */; };
 		408AFDC2241F121B000AA8AB /* SunnyRain.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDBB241F121B000AA8AB /* SunnyRain.png */; };
 		408AFDC5241F1248000AA8AB /* Cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDC4241F1248000AA8AB /* Cloudy.png */; };
 		408AFDCA241F677B000AA8AB /* Snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 408AFDC9241F677B000AA8AB /* Snow.png */; };
 		40D7A60F2420CCB400101701 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7A60E2420CCB400101701 /* WeatherTests.swift */; };
+		40D7A6112420E35100101701 /* AppPreview.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D7A6102420E35100101701 /* AppPreview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,14 +66,14 @@
 		407BA3C1241E134B0080D546 /* Launch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Launch.jpeg; sourceTree = "<group>"; };
 		408AFDB5241F121A000AA8AB /* LightningCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightningCloud.png; sourceTree = "<group>"; };
 		408AFDB6241F121A000AA8AB /* RainyCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RainyCloud.png; sourceTree = "<group>"; };
-		408AFDB7241F121A000AA8AB /* pexels-photo-365268.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-365268.jpeg"; sourceTree = "<group>"; };
 		408AFDB8241F121A000AA8AB /* HeavyRain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeavyRain.png; sourceTree = "<group>"; };
-		408AFDB9241F121A000AA8AB /* Suny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suny.png; sourceTree = "<group>"; };
+		408AFDB9241F121A000AA8AB /* Sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunny.png; sourceTree = "<group>"; };
 		408AFDBA241F121B000AA8AB /* PartlyCloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PartlyCloudy.png; sourceTree = "<group>"; };
 		408AFDBB241F121B000AA8AB /* SunnyRain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunnyRain.png; sourceTree = "<group>"; };
 		408AFDC4241F1248000AA8AB /* Cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloudy.png; sourceTree = "<group>"; };
 		408AFDC9241F677B000AA8AB /* Snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snow.png; sourceTree = "<group>"; };
 		40D7A60E2420CCB400101701 /* WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTests.swift; sourceTree = "<group>"; };
+		40D7A6102420E35100101701 /* AppPreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppPreview.png; sourceTree = "<group>"; };
 		4DB6F27B6F69A8C6996512E3 /* Pods_Forecast_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forecast_Now.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A5BD07ED2008727D7302D8 /* Pods_Forecast_NowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forecast_NowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E60E0585015AEEEC9A2B212 /* Pods-Forecast Now.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forecast Now.release.xcconfig"; path = "Target Support Files/Pods-Forecast Now/Pods-Forecast Now.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,10 +154,10 @@
 				408AFDB8241F121A000AA8AB /* HeavyRain.png */,
 				408AFDB5241F121A000AA8AB /* LightningCloud.png */,
 				408AFDBA241F121B000AA8AB /* PartlyCloudy.png */,
-				408AFDB7241F121A000AA8AB /* pexels-photo-365268.jpeg */,
 				408AFDB6241F121A000AA8AB /* RainyCloud.png */,
 				408AFDBB241F121B000AA8AB /* SunnyRain.png */,
-				408AFDB9241F121A000AA8AB /* Suny.png */,
+				408AFDB9241F121A000AA8AB /* Sunny.png */,
+				40D7A6102420E35100101701 /* AppPreview.png */,
 				408AFDC4241F1248000AA8AB /* Cloudy.png */,
 				408AFDC9241F677B000AA8AB /* Snow.png */,
 			);
@@ -294,16 +294,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408AFDC0241F121B000AA8AB /* Suny.png in Resources */,
+				408AFDC0241F121B000AA8AB /* Sunny.png in Resources */,
 				407BA3A3241D92F00080D546 /* LaunchScreen.storyboard in Resources */,
 				407BA3A0241D92F00080D546 /* Assets.xcassets in Resources */,
 				408AFDCA241F677B000AA8AB /* Snow.png in Resources */,
 				408AFDBC241F121B000AA8AB /* LightningCloud.png in Resources */,
 				408AFDC2241F121B000AA8AB /* SunnyRain.png in Resources */,
+				40D7A6112420E35100101701 /* AppPreview.png in Resources */,
 				408AFDC5241F1248000AA8AB /* Cloudy.png in Resources */,
 				407BA39E241D92ED0080D546 /* Main.storyboard in Resources */,
 				407BA3C2241E134B0080D546 /* Launch.jpeg in Resources */,
-				408AFDBE241F121B000AA8AB /* pexels-photo-365268.jpeg in Resources */,
 				408AFDBD241F121B000AA8AB /* RainyCloud.png in Resources */,
 				408AFDBF241F121B000AA8AB /* HeavyRain.png in Resources */,
 				408AFDC1241F121B000AA8AB /* PartlyCloudy.png in Resources */,
@@ -578,12 +578,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Forecast Now/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Adi..Forecast-Now";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adi.Forecast-Now";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -597,12 +597,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Forecast Now/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Adi..Forecast-Now";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adi.Forecast-Now";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
